@@ -5,7 +5,7 @@ string Parametr(string message) // метод для ввода значений
     string value = Console.ReadLine()!;
     if (value==string.Empty)
     {
-        Console.WriteLine("Пустые строки и символы отличные от цифр вводить нельзя!");
+        Console.WriteLine("Пустые строки вводить нельзя!");
         string val = Parametr("Введите значение еще раз:");
         return val;
     }
